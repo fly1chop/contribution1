@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaInfo version="2.0">
+  <Object id="MonthCalendar">
+    <ObjectInfo inheritance="nexacro.CompositeComponent" classname="nexacro.MonthCalendar" shorttypename="MonthCalendar" csstypename="MonthCalendar" csscontrolname="MonthCalendarControl" group="Component" subgroup="Component ( default )" csspseudo="true" container="true" tabstop="true" cssstyle="true" defaultwidth="175" defaultheight="28" registration="allow" edittype="action" useinitvalue="true" popup="false" edittypecomponent="" dblclickevent="onclick" requirement="IE8,IE9,IE10,IE11,Edge,Chrome,Safari,Firefox,Opera,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description=""/>
+    <PropertyInfo/>
+    <CSSInfo>
+      <PropertyInfo/>
+    </CSSInfo>
+    <StatusInfo/>
+    <MethodInfo>
+      <Method name="getMonth" async="false" unused="false">
+        <Syntax text="getMonth()">
+          <Return type="String" description="선택된 Calendar의 Month값을 리턴한다"/>
+          <Arguments/>
+        </Syntax>
+      </Method>
+      <Method name="setDate" async="false" unused="false" description="Calendar의 값을 입력한다.">
+        <Syntax text="setDate()">
+          <Return/>
+          <Arguments/>
+        </Syntax>
+      </Method>
+    </MethodInfo>
+    <EventHandlerInfo/>
+  </Object>
+</MetaInfo>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaInfo version="2.0">
+  <Object id="MultiCombo">
+    <ObjectInfo inheritance="nexacro.CompositeComponent" classname="nexacro.MultiCombo" shorttypename="MultiCombo" csstypename="MultiCombo" csscontrolname="MultiComboControl" group="Component" subgroup="Component ( default )" csspseudo="true" container="true" tabstop="true" cssstyle="true" defaultwidth="200" defaultheight="29" registration="allow" edittype="action" useinitvalue="true" popup="false" edittypecomponent="" dblclickevent="onclick" requirement="IE8,IE9,IE10,IE11,Edge,Chrome,Safari,Firefox,Opera,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description=""/>
+    <PropertyInfo>
+      <Property name="value" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" edittype="String" group="Action"/>
+      <Property name="text" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" group="Action" edittype="String"/>
+      <Property name="datacolumn" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" edittype="ColumnID" group="Binding"/>
+      <Property name="checkcolumn" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" group="Binding"/>
+      <Property name="codecolumn" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" edittype="ColumnID"/>
+      <Property name="displayrowcount" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" group="Appearance" edittype="String"/>
+      <Property name="innerdataset" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" group="Binding" edittype="DatasetID"/>
+      <Property name="itemheight" readonly="false" initonly="false" hidden="false" control="false" expr="false" bind="false" unused="false" mandatory="false" group="Appearance" edittype="String"/>
+    </PropertyInfo>
+    <CSSInfo>
+      <PropertyInfo/>
+    </CSSInfo>
+    <StatusInfo/>
+    <MethodInfo/>
+    <EventHandlerInfo/>
+  </Object>
+</MetaInfo>

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XCSS version="1.0"><![CDATA[.Button.btn_WF_Drop
+{
+	-nexa-border : 0px none;
+	-nexa-padding : 0px;
+	background : url("imagerc::devPackModule/cbo_WF_Drop.png") no-repeat center center transparent;
+	color : #333333;
+	font : 13px "Malgun Gothic";
+}
+.Button.btn_WF_Drop[status=mouseover],.Button.btn_WF_Drop[userstatus=pushed],.Button.btn_WF_Drop[userstatus=selected]
+{
+	-nexa-border : 0px none;
+	background : url("imagerc::devPackModule/cbo_WF_DropO.png") no-repeat center center transparent;
+}
+.Button.btn_WF_Drop[status=disabled]
+{
+	-nexa-border : 0px none;
+	background : url("imagerc::devPackModule/cbo_WF_DropD.png") no-repeat center center transparent;
+}
+.Button.btn_WF_Detail,
+.Button.btn_WF_Detail[status=focused]
+{
+	-nexa-border : 1px solid #d8d8d8;
+	-nexa-padding : 0px 8px 0px 8px;
+	background : #e4e4e4;
+	color : #666666;
+	font : 12px "Malgun Gothic";
+}
+.Button.btn_WF_Sch,
+.Button.btn_WF_Sch[status=focused]
+{
+	-nexa-border : 1px solid #c8cdd7;
+	-nexa-padding : 0px;
+	background : URL("imagerc::devPackModule/btn_WF_Search.png") no-repeat center #ffffff;
+}
+.Button.btn_WF_Sch[status=mouseover],.Button.btn_WF_Sch[userstatus=pushed],
+.Button.btn_WF_Sch[userstatus=selected]
+{
+	-nexa-border : 1px solid #313340;
+	background : URL("imagerc::devPackModule/btn_WF_SearchO.png") no-repeat center #ffffff;
+}
+.Button.btn_WF_Sch[status=disabled]
+{
+	-nexa-border : 1px solid #c8cdd7;
+	background : URL("imagerc::devPackModule/btn_WF_SearchD.png") no-repeat center #eaeaea;
+}
+.Button.btn_WF_PreBtn,
+.Button.btn_WF_PreBtn[status=focused]
+{
+	-nexa-border : 0px none;
+	-nexa-padding : 0px;
+	background : url("imagerc::devPackModule/cal_WF_PreBtn.png") no-repeat center center transparent;
+}
+.Button.btn_WF_PreBtn[status=mouseover],.Button.btn_WF_PreBtn[userstatus=pushed],
+.Button.btn_WF_PreBtn[userstatus=selected]
+{
+	-nexa-border : 0px none;
+	background : url("imagerc::devPackModule/cal_WF_PreBtnO.png") no-repeat center center transparent;
+}
+.Button.btn_WF_PreBtn[status=disabled]
+{
+	-nexa-border : 0px none;
+	background : url("imagerc::devPackModule/cal_WF_PreBtnD.png") no-repeat center center transparent;
+}
+.Button.btn_WF_NxtBtn,
+.Button.btn_WF_NxtBtn[status=focused]
+{
+	-nexa-border : 0px none;
+	-nexa-padding : 0px;
+	background : url("imagerc::devPackModule/cal_WF_NxtBtn.png") no-repeat center center transparent;
+}
+.Button.btn_WF_NxtBtn[status=mouseover],.Button.btn_WF_NxtBtn[userstatus=pushed],
+.Button.btn_WF_NxtBtn[userstatus=selected]
+{
+	-nexa-border : 0px none;
+	background : url("imagerc::devPackModule/cal_WF_NxtBtnO.png") no-repeat center center transparent;
+}
+.Button.btn_WF_NxtBtn[status=disabled]
+{
+	-nexa-border : 0px none;
+	background : url("imagerc::devPackModule/cal_WF_NxtBtnD.png") no-repeat center center transparent;
+}
+.Combo.cbo_WF_Cal,
+.Combo.cbo_WF_Cal[status=mouseover],.Combo.cbo_WF_Cal[status=focused]
+{
+	-nexa-border : 0px none;
+}
+.Combo.cbo_WF_Cal .comboedit,
+.Static.sta_WF_Cal
+{
+	font : bold 14px "Malgun Gothic";
+}
+.Edit.edt_WF_Cbo,.Edit.edt_WF_Cbo[status=readonly]
+{
+	-nexa-border : 1px solid #dddddd;
+	-nexa-padding : 0px 28px 0px 8px;
+	background : #ffffff;
+	color : #333333;
+	font : 13px "Malgun Gothic";
+}
+.Edit.edt_WF_Cbo[status=mouseover],.Edit.edt_WF_Cbo[status=focused]
+{
+	-nexa-border : 1px solid #313340;
+}
+.Edit.edt_WF_Cbo[userstatus=nulltext]
+{
+	color : #aeaeae;
+}
+.Edit.edt_WF_Cbo[status=disabled]
+{
+	-nexa-border : 1px solid #efefef;
+	background : #f9f9f9;
+	color : #aeaeae;
+}
+.Edit.edt_WF_Read,.Edit.edt_WF_Read[status=readonly]
+{
+	-nexa-border : 1px solid #dddddd;
+	-nexa-padding : 0px 28px 0px 8px;
+	background : #ffffff;
+	color 			: #333333;
+	font 			: 13px "Malgun Gothic";
+}
+.Edit.edt_WF_Read[status=mouseover],.Edit.edt_WF_Read[status=focused]
+{
+	-nexa-border : 1px solid #313340;
+}
+.Edit.edt_WF_Read[userstatus=nulltext]
+{
+	color : #aeaeae;
+}
+.Edit.edt_WF_Read[status=disabled]
+{
+	-nexa-border : 1px solid #efefef;
+	background : #f9f9f9;
+	color : #aeaeae;
+}
+.Grid.grd_WF_Cbo
+{
+	-nexa-border : 0px none;
+	color : #333333;
+	font : 13px "Malgun Gothic";
+}
+.Grid.grd_WF_Cbo .body .row .cell
+{
+	-nexa-border : 0px none;
+	-nexa-padding : 0px 0px 0px 8px;
+	color : #333333;
+}
+.Grid.grd_WF_Cbo .body .row .cell[status=mouseover]
+{
+	background : #e4f0fe;
+}
+.Grid.grd_WF_Cbo .body .row .cell[userstatus=selected]
+{
+	background : #8ec2ff;
+}
+.Grid.grd_WF_Cal
+{
+	-nexa-border : 0px none;
+}
+.Grid.grd_WF_Cal .head, .Grid.grd_WF_Cal .head .row .cell
+{
+	-nexa-border : 0px none;
+	background : #f7f8fa;
+}
+.Grid.grd_WF_Cal .body .row .cell
+{
+	-nexa-border : 0px none;
+	-nexa-text-align : center;
+	background : #ffffff;
+}
+.Grid.grd_WF_Cal .body .row .cell[status=mouseover]
+{
+	background : #e4f0fe;
+}
+.Grid.grd_WF_Cal .body .row .cell[userstatus=selected]
+{
+	background 		: #38c2d8;
+	color 			: #ffffff;
+	font 			: bold 13px "Malgun Gothic";
+}
+.Grid.grd_WF_Cal .head .row .cell.saturday,
+.Grid.grd_WF_Cal .body .row .cell.saturday
+{
+	color : #239cf0;
+}
+.Grid.grd_WF_Cal .head .row .cell.sunday,
+.Grid.grd_WF_Cal .body .row .cell.sunday
+{
+	color : #ee5555;
+}
+.PopupDiv.pdiv_WF_Bg
+{
+	-nexa-border 		: 1px solid #646982;
+	background 		: #ffffff;
+}]]></XCSS>

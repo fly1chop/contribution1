@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaInfo version="2.0">
+  <Object id="PeriodCalendar">
+    <ObjectInfo inheritance="nexacro.CompositeComponent" classname="nexacro.PeriodCalendar" shorttypename="PeriodCalendar" csstypename="PeriodCalendar" csscontrolname="PeriodCalendarControl" group="Component" subgroup="Component ( default )" csspseudo="true" container="true" tabstop="true" cssstyle="true" defaultwidth="317" defaultheight="28" registration="allow" edittype="action" useinitvalue="true" popup="false" edittypecomponent="" dblclickevent="onclick" requirement="IE8,IE9,IE10,IE11,Edge,Chrome,Safari,Firefox,Opera,Windows NRE,macOS NRE,Android NRE,iOS/iPadOS NRE,Android Default Web Browser,iOS/iPadOS Default Web Browser" description="기간으로 선택할 수 있는 달력컴포넌트"/>
+  </Object>
+</MetaInfo>
