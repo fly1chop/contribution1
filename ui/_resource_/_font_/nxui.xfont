@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XFONT version="1.0"><![CDATA[
+/* 본 소스는 메인화면용 별도 css이며 nexacro css와는 별개입니다. */
+.box1 {animation: 0.6s box1;}
+.box2 {animation: 0.6s box2;}
+.box3 {animation: 0.6s box3;}
+.box4 {animation: 0.9s box4;}
+.box5 {animation: 0.9s box5;}
+
+@keyframes box1 {
+  from {
+    transform: translate(0%, 100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes box2 {
+  from {
+    transform: translate(0%, 100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes box3 {
+  from {
+    transform: translate(50%, 100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes box4 {
+  from {
+    transform: translate(0%, 100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes box5 {
+  from {
+    transform: translate(0%, 100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+
+
+/* 폰트 예제 */]]></XFONT>

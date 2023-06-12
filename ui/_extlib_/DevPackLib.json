@@ -1,0 +1,20 @@
+{
+	"name": "DevPackLib",
+	"version": "1.0.0.0",
+	"description": "Library for nexacro platform17",
+	"license": "",
+	"scripts": [
+        "DevPackLib/Frame.js",
+        "DevPackLib/Util.js",
+        "DevPackLib/Comp.js",
+        "DevPackLib/Transaction.js",  
+        "DevPackLib/Validation.js",
+        "DevPackLib/Popup.js",
+        "DevPackLib/File.js",
+        "DevPackLib/Message.js",
+        "DevPackLib/Grid.js",
+        "DevPackLib/Excel.js",
+        "DevPackLib/ExtLib.js",
+        "DevPackLib/CompOverride.js"
+	]
+}

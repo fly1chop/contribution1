@@ -1,0 +1,52 @@
+﻿{
+	"name": "devPackModule",
+	"moduletype": "component",
+	"version": "1.0",
+	"minnexacroversion": "",
+	"description": "DevPackModule 배포 프로젝트",
+	"license": "",
+	"objInfo": [	
+    "devPackModule/_metainfo_/MultiCombo.info",
+    "devPackModule/_metainfo_/DaumPostCode.info",
+    "devPackModule/_metainfo_/JusoPostCode.info",
+    "devPackModule/_metainfo_/WeekCalendar.info",
+    "devPackModule/_metainfo_/MonthCalendar.info",
+    "devPackModule/_metainfo_/PeriodCalendar.info",
+    "devPackModule/_metainfo_/FromToCalendar.info"
+	],
+	"scripts": [
+    "devPackModule/MultiCombo.xcdl.js",
+    "devPackModule/DaumPostCode.xcdl.js",
+    "devPackModule/JusoPostCode.xcdl.js",
+    "devPackModule/WeekCalendar.xcdl.js",
+    "devPackModule/MonthCalendar.xcdl.js",
+    "devPackModule/PeriodCalendar.xcdl.js",
+    "devPackModule/FromToCalendar.xcdl.js"
+	],
+	"scriptsfilter": [
+
+	],
+	"designscripts": [
+    "devPackModule/DesignMultiCombo.js",
+    "devPackModule/DesignDaumPostCode.js",
+    "devPackModule/DesignJusoPostCode.js",
+    "devPackModule/DesignWeekCalendar.js",
+    "devPackModule/DesignMonthCalendar.js",
+    "devPackModule/DesignPeriodCalendar.js",
+    "devPackModule/DesignFromToCalendar.js"
+	],
+	"help": "",	
+	"xcss": "devPackModule/_xcss_/devPackModule.xcss",
+	"images": "devPackModule/_images_/",	
+	"licensefiles": "",
+	"icons": "",
+	"userfolder": [
+
+	],
+	"installinfo": {
+
+	},
+	"contentseditor": [
+
+	]
+}
